@@ -7,27 +7,31 @@
 
 ## variables can be overwritten in local scope
 
-    class Ex1{
-      static int x = 10;  
-      public static void main(String[] args) {
-        for(int x=0;x<5;x++){
-        }
-        System.out.print(x);
-      }
+'''java
+class Ex1{
+  static int x = 10;  
+  public static void main(String[] args) {
+    for(int x=0;x<5;x++){
     }
+    System.out.print(x);
+  }
+}
+'''
 '10'
 
 Even if the local variable is defined as metheod parameter
 
-    class Ex1{
-      public static void main(String args[]){
-        int x = 10;
-        int y = new Ex1().change(x);
-        System.out.print(x+y);
-      }
-      int change(int x){
-        x=12;
-        return x;
-      }
-    }
+'''java
+class Ex1{
+  public static void main(String args[]){
+    int x = 10;
+    int y = new Ex1().change(x);
+    System.out.print(x+y);
+  }
+  int change(int x){
+    x=12;
+    return x;
+  }
+}
+'''
 '22'
