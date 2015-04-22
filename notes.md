@@ -7,7 +7,7 @@
 
 ## variables can be overwritten in local scope
 
-'''java
+```java
 class Ex1{
   static int x = 10;  
   public static void main(String[] args) {
@@ -16,12 +16,12 @@ class Ex1{
     System.out.print(x);
   }
 }
-'''
-'10'
+```
+`10`
 
 Even if the local variable is defined as metheod parameter
 
-'''java
+```java
 class Ex1{
   public static void main(String args[]){
     int x = 10;
@@ -33,5 +33,5 @@ class Ex1{
     return x;
   }
 }
-'''
-'22'
+```
+`22`
