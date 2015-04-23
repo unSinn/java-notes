@@ -5,7 +5,7 @@
   * There can't be any code between the try and catch block
   * The method 's.concat("a")' does not alter 's' return value has to be assigned.
   * ArrayList has no sort()-method. Use Collections.sort(Comparable) instead.
-  * int has  -2^31 (-2147483648) and a maximum value of (2^31)-1 (2147483647)
+  * int has  -2^31 (-2147483648) and a maximum value of  2^31 -1 (2147483647)
   * `package` has to be in front of `import`
   * The default value of `String` is `null` (like any other `Object`)
 
