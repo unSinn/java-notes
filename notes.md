@@ -6,6 +6,10 @@
   * The method 's.concat("a")' does not alter 's' return value has to be assigned.
   * ArrayList has no sort()-method. Use Collections.sort(Comparable) instead.
 
+### Compiling
+To compile a Class `HellWorld` in the File `HelloWorld.java`
+```javac HelloWorld.java```
+
 ### variables can be overwritten in local scope
 
 ```java
@@ -39,7 +43,6 @@ class Ex1{
 
 ### Literals
 
-Different locations of brackets, all valid:
 ```java
 int a = 14; // decimal: 14
 int b = 015; // octal: 8 + 5 = 13
@@ -56,3 +59,11 @@ int c[];
 a = new int[3];
 a[0] = 42;
 ```
+
+### &, &&, |, || and booleans
+* & verifies both operands: `(x != 0) & (1/x > 1)` will throw an Exception if x=0.
+* && stops evaluating if the first operand evaluates to false since the result will be false `(x != 0) && (1/x > 1)` won't throw an Exception.
+
+This is similar to | and ||
+`a | b` this means evaluate a then evaluate b then do the |.
+`a || b`  while this means evaluate a and only if this is false then evaluate b.
