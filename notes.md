@@ -63,7 +63,5 @@ a[0] = 42;
 ### &, &&, |, || and booleans
 * & verifies both operands: `(x != 0) & (1/x > 1)` will throw an Exception if x=0.
 * && stops evaluating if the first operand evaluates to false since the result will be false `(x != 0) && (1/x > 1)` won't throw an Exception.
-
-This is similar to | and ||
-`a | b` this means evaluate a then evaluate b then do the |.
-`a || b`  while this means evaluate a and only if this is false then evaluate b.
+* `a | b` this means evaluate a then evaluate b then do the |.
+* `a || b`  while this means evaluate a and only if this is false then evaluate b.
