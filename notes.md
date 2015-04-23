@@ -1,14 +1,23 @@
 # Reminders
 
-  * Arrays are Objects ("byte[] a instanceof Object" is true)
-  * _ $ are valid variablenames (@, 1 are not)
+  * Arrays are Objects (`byte[] a instanceof Object` is true)
+  * `_` `$` are valid variablenames (@, 1 are not)
   * There can't be any code between the try and catch block
   * The method 's.concat("a")' does not alter 's' return value has to be assigned.
   * ArrayList has no sort()-method. Use Collections.sort(Comparable) instead.
+  * int has  -2<sup>31</sup> (-2147483648) and a maximum value of 2<sup>31</sup>-1 (2147483647)
+  * `package` has to be in front of `import`
+  * The default value of `String` is `null` (like any other `Object`)
 
 ### Compiling
 To compile a Class `HellWorld` in the File `HelloWorld.java`
 ```javac HelloWorld.java```
+
+To compile from `/proj/src` with the a class A in package `top.sub`:
+
+```javac -d /proj/bin top/sub/A.java```
+
+Produces the output `/proj/src/bin/top/sub/A.class`.
 
 ### variables can be overwritten in local scope
 
