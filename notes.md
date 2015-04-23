@@ -37,6 +37,14 @@ class Ex1{
 ```
 `22`
 
+### Literals
+
+Different locations of brackets, all valid:
+```java
+int a = 14; // decimal: 14
+int b = 015; // octal: 8 + 5 = 13
+int c = 0x16; // hexadecimal: 16 + 6 = 22### Arrays
+
 ### Arrays
 Different locations of brackets, all valid:
 ```java
