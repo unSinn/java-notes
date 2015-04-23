@@ -11,11 +11,16 @@
 
 ### Compiling
 To compile a Class `HellWorld` in the File `HelloWorld.java`
-```javac HelloWorld.java```
 
-To compile from `/proj/src` with the a class A in package `top.sub`:
+```bash
+javac HelloWorld.java
+```
 
-```javac -d /proj/bin top/sub/A.java```
+To compile from `/proj/src` with the a class `A` in package `top.sub`:
+
+```bash
+javac -d /proj/bin top/sub/A.java
+```
 
 Produces the output `/proj/src/bin/top/sub/A.class`.
 
