@@ -1,4 +1,4 @@
-public class VariableArguments {
+public class VarArgs {
 
 	public static void main(String[] args) {
 		print("a", "b"); // 2
