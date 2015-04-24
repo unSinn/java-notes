@@ -9,6 +9,13 @@
   * `package` has to be in front of `import`
   * The default value of `String` is `null` (like any other `Object`)
 
+
+  ### &, &&, |, || and booleans
+  * & verifies both operands: `(x != 0) & (1/x > 1)` will throw an Exception if x=0.
+  * && stops evaluating if the first operand evaluates to false since the result will be false `(x != 0) && (1/x > 1)` won't throw an Exception.
+  * `a | b` this means evaluate a then evaluate b then do the |.
+  * `a || b`  while this means evaluate a and only if this is false then evaluate b.
+
 ### Compiling
 To compile a Class `HellWorld` in the File `HelloWorld.java`
 
@@ -93,13 +100,5 @@ Different locations of brackets, all valid:
 int[] a;
 int []b;
 int c[];
-
-a = new int[3];
-a[0] = 42;
+int[] []d[];
 ```
-
-### &, &&, |, || and booleans
-* & verifies both operands: `(x != 0) & (1/x > 1)` will throw an Exception if x=0.
-* && stops evaluating if the first operand evaluates to false since the result will be false `(x != 0) && (1/x > 1)` won't throw an Exception.
-* `a | b` this means evaluate a then evaluate b then do the |.
-* `a || b`  while this means evaluate a and only if this is false then evaluate b.
