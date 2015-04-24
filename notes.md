@@ -15,13 +15,11 @@ To compile a Class `HellWorld` in the File `HelloWorld.java`
 ```bash
 javac HelloWorld.java
 ```
-
 To compile from `/proj/src` with the a class `A` in package `top.sub`:
 
 ```bash
 javac -d /proj/bin top/sub/A.java
 ```
-
 Produces the output `/proj/src/bin/top/sub/A.class`.
 
 ### variables can be overwritten in local scope
@@ -54,6 +52,32 @@ class Ex1{
 }
 ```
 `22`
+
+### Precedence and Associativity
+
+Some Operators have left-to-right Associativity and thus operators with the same Precedence are resolved from left to right no matter what datatype:
+```java
+System.out.println(1 + 2 + "3"); // 33
+System.out.println("3" + 2 + 1.0f); // 321.0
+```
+
+However operators with higher Precedence are resolved first:
+```java
+System.out.println("3" + 2 * 1.0f); // 32.0
+```
+
+Some operators have right-to-left Associativity:
+
+```java
+public static void main(String[] args) {
+  int a = 1;
+  int b = 2;
+  System.out.println(a = b = fuufi() + 5); // 10
+}
+private static int fuufi() {
+	return 5;
+}
+```
 
 ### Literals
 
