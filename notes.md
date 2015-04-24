@@ -8,6 +8,7 @@
   * int has  -2^31 (-2147483648) and a maximum value of  2^31 -1 (2147483647)
   * `package` has to be in front of `import`
   * The default value of `String` is `null` (like any other `Object`)
+  * The call of the super() constructor has to be on the first line.
 
 
   ### &, &&, |, || and booleans
@@ -93,6 +94,22 @@ int a = 14; // decimal: 14
 int b = 015; // octal: 8 + 5 = 13
 int c = 0x16; // hexadecimal: 16 + 6 = 22### Arrays
 ```
+
+### Widening and Boxing
+
+
+
+#### Widening
+```java
+long a = 1 + 5l;
+```
+
+#### Boxing
+```java
+Integer b = 1 + 5;
+```
+#### Method selection
+Java will first choose methods that widen the variables, then those box them and then look for VarArgs.
 
 ### Arrays
 Different locations of brackets, all valid:
