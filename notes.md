@@ -8,7 +8,8 @@
   * int has  -2^31 (-2147483648) and a maximum value of  2^31 -1 (2147483647)
   * `package` has to be in front of `import`
   * The default value of `String` is `null` (like any other `Object`)
-  * The call of the super() constructor has to be on the first line.
+  * The call of a super() constructor has to be on the first line.
+  * Interface methods are public by default.
 
 
   ### &, &&, |, || and booleans
