@@ -14,11 +14,12 @@ public class VarInitOnHeap {
 
 		a++; // this is ok, a is on the heap and heap variables are initialized
 				// with the default value.
+		System.out.print(a); // 1
+		
 		b++;
 		c++;
 		// d++; -> this would not compile, d is on the stack and has to be
-		// initialized manually
+		// initialized.
 		e++;
-		System.out.print(a); // 1
 	}
 }
