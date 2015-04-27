@@ -116,6 +116,16 @@ String s = "Blubb";
 
 Where `14_000`, `015`, `0x16` are called primitive literals and `"Blubb"` is a String literal.
 
+### Number Assignemnt
+
+```java
+short x = 4; 
+x += 5.3;
+```  
+`9` 
+
+It is equivalent to  `x = (short)(x + 5.3)`
+
 ### Widening and Boxing
 #### Widening
 ```java
@@ -137,6 +147,8 @@ int []b;
 int c[];
 int[] []d[];
 ```
+
+
 
 #### System.arraycopy
 
