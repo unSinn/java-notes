@@ -9,7 +9,11 @@
   * The default value of `String` is `null` (like any other `Object`)
   * The call of a super() constructor has to be on the first line.
   * Interface methods are public by default.
+  * `System` is not a package. It is a class in `java.lang` package.
+
+And as always:
   * Always take looooong time to verify which variable is printed out!!!
+  * Always make sure you checked *all* correct answers!
 
 
   ### &, &&, |, || and booleans
@@ -88,6 +92,10 @@ private static int fuufi() {
 }
 ```
 
+## Numeric Values
+
+ * Java has no `unsigned` keyword. Big values can be represented by a long.
+
 ### Literals
 
 ```java
@@ -131,9 +139,10 @@ Copies an array from the specified source array, beginning at the specified posi
 
 ### Method Overloading
 
-A method is said to be overloaded when the other method's name is same and parameters ( either the number or their order) are different.
+A method is said to be overloaded when:
 
- * Either the type, number or the order of parameters has to differ.
+ * The methods name is the same.
+ * Either the type, number or the order of parameters is different.
  * Return value can be ignored.
  
 If the number of parameters and their type are the same the method will be overwritten.
