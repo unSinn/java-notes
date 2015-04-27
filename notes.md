@@ -79,6 +79,15 @@ However operators with higher Precedence are resolved first:
 System.out.println("3" + 2 * 1.0f); // 32.0
 ```
 
+The same applies to `==`
+
+```java
+boolean b1 = false; int i1 = 2; int i2 = 3;
+if (b1 = i1 == i2)
+```
+
+`b1 = i1 == i2` will be evaluated as `b1 = (i1 == i2)`
+
 Some operators have right-to-left Associativity:
 
 ```java

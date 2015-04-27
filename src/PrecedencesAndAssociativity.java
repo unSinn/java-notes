@@ -19,4 +19,5 @@ public class PrecedencesAndAssociativity {
 	private static int fuufi() {
 		return 5;
 	}
+
 }
