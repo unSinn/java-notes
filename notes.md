@@ -10,6 +10,7 @@
   * The default value of `String` is `null` (like any other `Object`)
   * The call of a super() constructor has to be on the first line.
   * Interface methods are public by default.
+  * Always take looooong time to verify which variable is printed out!!!
 
 
   ### &, &&, |, || and booleans
@@ -120,3 +121,16 @@ int []b;
 int c[];
 int[] []d[];
 ```
+
+#### System.arraycopy
+
+```java
+arraycopy(Object src, int srcPos, Object dest, int destPos, int length)
+```
+
+Copies an array from the specified source array, beginning at the specified position, to the specified position of the destination array.
+
+### Method overloading
+
+ * Either the type,number or the order of parameters has to differ.
+ * Return value can be ignored.
