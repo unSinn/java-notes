@@ -19,5 +19,8 @@ public class WideningAndBoxing {
 		/* But the box classes all extend Number */
 		Number f = 10 + 10l + 10f + 10d + new Byte((byte) 0x0A);
 		System.out.println(f + " " + f.getClass().getSimpleName());
+		
+		int i = 100;
+		for(;(i >0);i--){}
 	}
 }

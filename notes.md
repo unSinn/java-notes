@@ -8,7 +8,8 @@
   * int has  -2^31 (-2147483648) and a maximum value of  2^31 -1 (2147483647)
   * `package` has to be in front of `import`
   * The default value of `String` is `null` (like any other `Object`)
-  * The call of the super() constructor has to be on the first line.
+  * The call of a super() constructor has to be on the first line.
+  * Interface methods are public by default.
 
 
   ### &, &&, |, || and booleans
@@ -92,13 +93,13 @@ private static int fuufi() {
 ```java
 int a = 14; // decimal: 14
 int b = 015; // octal: 8 + 5 = 13
-int c = 0x16; // hexadecimal: 16 + 6 = 22### Arrays
+int c = 0x16; // hexadecimal: 16 + 6 = 22
+String s = "Blubb";
 ```
 
+Where `14_000`, `015`, `0x16` are called primitive literals and `"Blubb"` is a String literal.
+
 ### Widening and Boxing
-
-
-
 #### Widening
 ```java
 long a = 1 + 5l;

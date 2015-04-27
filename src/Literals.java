@@ -6,6 +6,7 @@ public class Literals {
 		int c = 0x16; // hexadecimal: 16 + 6 = 22
 		
 		System.out.format("a:%d b:%d c:%d", a, b, c);
+		
 	}
 
 }
