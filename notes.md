@@ -2,7 +2,6 @@
 
   * Arrays are Objects (`byte[] a instanceof Object` is true)
   * `_` `$` are valid variablenames (@, 1 are not)
-  * There can't be any code between the try and catch block
   * The method 's.concat("a")' does not alter 's' return value has to be assigned.
   * ArrayList has no sort()-method. Use Collections.sort(Comparable) instead.
   * int has  -2^31 (-2147483648) and a maximum value of  2^31 -1 (2147483647)
@@ -130,7 +129,17 @@ arraycopy(Object src, int srcPos, Object dest, int destPos, int length)
 
 Copies an array from the specified source array, beginning at the specified position, to the specified position of the destination array.
 
-### Method overloading
+### Method Overloading
 
- * Either the type,number or the order of parameters has to differ.
+A method is said to be overloaded when the other method's name is same and parameters ( either the number or their order) are different.
+
+ * Either the type, number or the order of parameters has to differ.
  * Return value can be ignored.
+ 
+If the number of parameters and their type are the same the method will be overwritten.
+
+
+### Exceptions
+  * There can't be any code between the try and catch block.
+  * The order has to be `try`, `catch`, (`catch`,`catch`) `finally`. It shall not be done different.
+  * `try` can be followed by either `catch` or `finally`. (or both)
