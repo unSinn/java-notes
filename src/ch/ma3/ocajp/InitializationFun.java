@@ -1,3 +1,4 @@
+package ch.ma3.ocajp;
 public class InitializationFun {
 
 	static int a, b = 10;

@@ -1,3 +1,4 @@
+package ch.ma3.ocajp;
 public class Strings {
 	public static void main(String[] args) {
 		String s = " SunDay ";

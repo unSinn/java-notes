@@ -1,3 +1,4 @@
+package ch.ma3.ocajp;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;

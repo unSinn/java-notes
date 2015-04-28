@@ -1,3 +1,4 @@
+package ch.ma3.ocajp;
 public class PrecedencesAndAssociativity {
 
 	public static void main(String[] args) {

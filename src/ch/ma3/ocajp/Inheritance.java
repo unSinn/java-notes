@@ -1,3 +1,4 @@
+package ch.ma3.ocajp;
 class Inheritance {
 
 	private class SomeClass {

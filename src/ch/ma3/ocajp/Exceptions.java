@@ -1,3 +1,4 @@
+package ch.ma3.ocajp;
 import java.io.UncheckedIOException;
 
 public class Exceptions {

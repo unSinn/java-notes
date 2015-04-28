@@ -1,3 +1,4 @@
+package ch.ma3.ocajp;
 public interface MethodOverloading {
 
 	int m();
