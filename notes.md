@@ -10,6 +10,8 @@
   * The call of a super() constructor has to be on the first line.
   * Interface methods are public by default.
   * `System` is not a package. It is a class in `java.lang` package.
+  * final variables must be initialized either in an instance block or in a constructor
+  * A top-level class (no inner class) can have the access modifiers *default* or public. private or protected are only valid for inner classes.
 
 And as always:
   * Always take looooong time to verify which variable is printed out!!!
