@@ -1,6 +1,6 @@
 # Reminders
 
-  * Arrays are Objects (`byte[] a instanceof Object` is true)
+  * Arrays are Objects (`byte[] instanceof Object` is true)
   * `_` `$` are valid variablenames (@, 1 are not)
   * The method 's.concat("a")' does not alter 's' return value has to be assigned.
   * ArrayList has no sort()-method. Use Collections.sort(Comparable) instead.
@@ -19,7 +19,7 @@ And as always:
   * Make sure all checked Exceptions are caught!
 
 
-  ### &, &&, |, || and booleans
+### &, &&, |, || and booleans
   * & verifies both operands: `(x != 0) & (1/x > 1)` will throw an Exception if x=0.
   * && stops evaluating if the first operand evaluates to false since the result will be false `(x != 0) && (1/x > 1)` won't throw an Exception.
   * `a | b` this means evaluate a then evaluate b then do the |.
