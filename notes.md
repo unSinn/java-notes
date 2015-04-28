@@ -162,14 +162,37 @@ Copies an array from the specified source array, beginning at the specified posi
 
 A method is said to be overloaded when:
 
- * The methods name is the same.
- * Either the type, number or the order of parameters is different.
- * Return value can be ignored.
+  * The methods name is the same.
+  * Either the type, number or the order of parameters is different.
+  * Return value can be ignored.
  
 If the number of parameters and their type are the same the method will be overwritten.
 
 
 ### Exceptions
+
   * There can't be any code between the try and catch block.
   * The order has to be `try`, `catch`, (`catch`,`catch`) `finally`. It shall not be done different.
   * `try` can be followed by either `catch` or `finally`. (or both)
+  
+### Switch case
+
+  * long cannot be used as a switch statement.
+
+#### The default case can be everywhere.
+
+```java
+int value = 25;
+
+switch (value) {
+case 1:
+	System.out.println("drüü");
+	break;
+default:
+	System.out.println("default");
+	break;
+case 2:
+	System.out.println("zwo");
+	break;
+}
+```
