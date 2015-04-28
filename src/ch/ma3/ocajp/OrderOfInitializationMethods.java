@@ -1,4 +1,5 @@
 package ch.ma3.ocajp;
+
 public class OrderOfInitializationMethods {
 
 	private static String s = m("1");
@@ -7,12 +8,18 @@ public class OrderOfInitializationMethods {
 		s = m("2");
 	}
 
+	private static String x = m("3");
+
 	{
-		s = m("3");
+		s = m("i1");
 	}
 
 	public OrderOfInitializationMethods() {
-		s = m("4");
+		s = m("c1");
+	}
+
+	{
+		s = m("i2");
 	}
 
 	public static void main(String[] args) {
