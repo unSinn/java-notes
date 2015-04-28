@@ -1,4 +1,5 @@
 package ch.ma3.ocajp;
+
 public class NoStaticPolymorphism {
 
 	public static void main(String... args) {

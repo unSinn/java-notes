@@ -14,8 +14,9 @@
   * A top-level class (no inner class) can have the access modifiers *default* or public. private or protected are only valid for inner classes.
 
 And as always:
+  * Always make sure you checked *all* correct answers, read how many have to be checked, verify that again!
   * Always take looooong time to verify which variable is printed out!!!
-  * Always make sure you checked *all* correct answers!
+  * Make sure all checked Exceptions are caught!
 
 
   ### &, &&, |, || and booleans
@@ -25,6 +26,9 @@ And as always:
   * `a || b`  while this means evaluate a and only if this is false then evaluate b.
 
 ### Compiling
+
+* A public class must exist in a file by the same name.
+
 To compile a Class `HellWorld` in the File `HelloWorld.java`
 
 ```bash
@@ -176,6 +180,7 @@ If the number of parameters and their type are the same the method will be overw
   * There can't be any code between the try and catch block.
   * The order has to be `try`, `catch`, (`catch`,`catch`) `finally`. It shall not be done different.
   * `try` can be followed by either `catch` or `finally`. (or both)
+  * All subclasses of `Throwable` can be thrown. These are normally called  `*Exception` or `*Error`.
   
 ### Switch case
 
