@@ -1,10 +1,15 @@
 package ch.ma3.ocajp;
+
 public class InitializationFun {
 
 	static int a, b = 10;
+	int c;
 
 	public static void main(String... args) {
-		System.out.format("i: %d, j: %d\n", a, b); // i: 0, j: 10
+		System.out.format("a: %d, b: %d\n", a, b); // a: 0, b: 10
+
+		// This gives a compiler error because c is a instance variable.
+		// c = 15;
 
 		// But you could do something like this:
 		String s1, s2;
